@@ -14,5 +14,21 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayeebee/book-search-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jayeebee/book-search-engine/issues"
+  },
+  "homepage": "https://github.com/jayeebee/book-search-engine#readme",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.2",
+    "path": "^0.12.7",
+    "react": "^17.0.2"
   }
 }
