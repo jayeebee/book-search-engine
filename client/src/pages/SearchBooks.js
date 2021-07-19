@@ -72,10 +72,11 @@ const SearchBooks = () => {
     }
     //THIS IS THE 'Make sure you keep the logic for saving the book's ID to state in the try...catch block! PART
     try {
-       await saveBook({
-         variables: { book: bookToSave }
+       const {data} = await saveBook({
+         variables: { bookData: {...bookToSave } }
        });
 
+       console.log(data)
       // if book successfully saves to user's account, save book id to state
       setSavedBookIds([...savedBookIds, bookToSave.bookId]);
     } catch (err) {
