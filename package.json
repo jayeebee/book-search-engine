@@ -28,7 +28,7 @@
     "apollo-server": "^2.25.2",
     "express": "^4.17.1",
     "graphql": "^15.5.1",
-    "mongoose": "^5.13.2",
+    "mongoose": "^5.13.3",
     "path": "^0.12.7",
     "react": "^17.0.2"
   }
